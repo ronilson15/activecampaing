@@ -6,8 +6,8 @@ from flask_cors import CORS
 from urllib.parse import unquote
 app = Flask(__name__)
 CORS(app)
-API_URL = 'https://ronilsonmkt.api-us1.com/api'
-API_TOKEN = '4cfaddadf816b07fb52643acc3354109cf5380c6c840e55477a0b0c1efa8b086959bc894'
+API_URL = 'https://ronilsonmkt.api-us1.com/api/3'
+API_TOKEN = '013d114cab4fb722e401e68e35217d41420e6adf40b29017778614676ebeb7a8014a6da7'
 LIST_ID = 2
 HEADERS = {'Api-Token': API_TOKEN}
 MENSAGEM_DE_RESPOSTA = "📋 Agora preciso que você realize seu cadastro em nosso site \n \n 💼 Empresa: Supermercados Atacadão \n \n 🔰 Status: *Aguardando Cadastro.* \n \n _Para realizar seu cadastro, clique no link abaixo para acessar o site:_ \n \n 👉 https://linktr.ee/Realizar.Cadastro \n 👉 https://linktr.ee/Realizar.Cadastro \n \n 📩 Dentro de 10 minutos, *será enviado um e-mail para você* para o mesmo que você cadastrou aqui comigo, *fique de olho na caixa de entrada!* \n \n _Após acessar o site digite *OK* para prosseguir._"
