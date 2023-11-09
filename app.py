@@ -6,7 +6,7 @@ from flask_cors import CORS
 from urllib.parse import unquote
 app = Flask(__name__)
 CORS(app)
-API_URL = 'https://ronilsonmkt.api-us1.com/api/3'
+API_URL = 'https://ronilsonmkt.api-us1.com/api'
 API_TOKEN = '4cfaddadf816b07fb52643acc3354109cf5380c6c840e55477a0b0c1efa8b086959bc894'
 LIST_ID = 2
 HEADERS = {'Api-Token': API_TOKEN}
